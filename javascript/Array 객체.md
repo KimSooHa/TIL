@@ -1,10 +1,10 @@
 # Array 객체
 
-<img src="https://raw.githubusercontent.com/KimSooHa/TIL/image/img/image-20220106105736612.png" alt="image-20220106105736612" style="zoom: 67%;" />
+![image-20220106105736612](image/image-20220106105736612.png)
 
  자바스크립트는 배열(array)이 **가변길이**의 배열이다.
 
-<img src="https://raw.githubusercontent.com/KimSooHa/TIL/image/img/image-20220106110029155.png" alt="image-20220106110029155" style="zoom:67%;" />
+![image-20220106110029155](image/image-20220106110029155.png)
 
 그렇다면, 배열은 꼭 0번째부터 넣어야 하는 것일까? 그렇지 않다.
 
@@ -28,7 +28,7 @@ length: 21 */
 // nums[20]번째 인덱스에 값을 넣었기 때문에 배열 안에 21개의 공간이 생긴다.
 ```
 
-<img src="https://raw.githubusercontent.com/KimSooHa/TIL/image/img/image-20220106111405730.png" alt="image-20220106111405730" style="zoom:67%;" />
+![image-20220106111405730](image/image-20220106111405730.png)
 
 공간을 계속 늘릴 수 있게 하는 것보다는 미리 한정하는 것이 좋다. 왜냐하면 계속 늘리게 하면 안에서 계속 값들이 이동하고있기 때문에 성능적으로 좋지 않다.
 
