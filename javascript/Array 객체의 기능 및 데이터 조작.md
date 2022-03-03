@@ -6,7 +6,7 @@
 
 **함수스택**: 함수들이 사용하는 데이터를 스택 방식으로 저장하고 꺼내고 하는데, 배열에 담고 그것을 꺼낼때는 담은순서와 역순으로 꺼내거나 뒤로 돌리기로 해서 최근 것부터 하나씩 빼는 방식이 스택방식이다.(ex. 오목게임, 포토샵의 되돌리기)
 
-![image-20220106112248488](../../../Users/SooHaKim/AppData/Roaming/Typora/typora-user-images/image-20220106112248488.png)
+![image-20220106112248488](image/image-20220106112248488.png)
 
 **push**는 위에 넣고, **pop**은 가장 위의 것을 빼는 것으로 두 개가 Stack방식의 함수이다.
 
@@ -34,7 +34,7 @@ console.log(nums);
 
 ## Array 객체의 Queue 기능 활용하기
 
-![image-20220106113027960](../../../Users/SooHaKim/AppData/Roaming/Typora/typora-user-images/image-20220106113027960.png)
+![image-20220106113027960](image/image-20220106113027960.png)
 
 **Queue**: 먼저 넣은것을 먼저 꺼내는 것. **버퍼(buffer)**이다. 먼저 들어온 데이터를 먼저 빼는 방식.
 
@@ -42,7 +42,7 @@ console.log(nums);
 
 버퍼는 **대기석**이다. 오는대로 바로 소화가 안되니까 대기석이 있는 것이다. 균등하게 데이터를 꺼내보기 위해서 버퍼를 사용한다.
 
-![image-20220106113400048](../../../Users/SooHaKim/AppData/Roaming/Typora/typora-user-images/image-20220106113400048.png)
+![image-20220106113400048](image/image-20220106113400048.png)
 
 먼저 넣은 것을 꺼내고 싶다면 **shift() 함수**를 사용하면 된다.
 
@@ -72,27 +72,27 @@ console.log(nums);  // 현재 콘솔을 펼쳐보면 최초에 담긴 배열만 
 
 ## Array 객체의 Double Ended Queue
 
-![image-20220107201402564](../../../Users/SooHaKim/AppData/Roaming/Typora/typora-user-images/image-20220107201402564.png)
+![image-20220107201402564](image/image-20220107201402564.png)
 
 이번에는 두가지 방향 다 삽입/삭제가 가능한 **DeQue**가 있다.
 
 상단에서 보았듯이, 가장 위(마지막)에 넣는 것을 push라면 가장 위(마지막)에 넣은 것을 빼는 것은 pop, 가장 먼저 넣은 것을 빼는 것은 shift라면 그 반대로 넣는 것은 **unshift**이다. 이렇게 넣고 빼는 push-pop관계를 반대방향에서는 unshift-shift 관계가 되는 것이다.
 
-![image-20220107201515155](../../../Users/SooHaKim/AppData/Roaming/Typora/typora-user-images/image-20220107201515155.png)
+![image-20220107201515155](image/image-20220107201515155.png)
 
-![image-20220107111904558](../../../Users/SooHaKim/AppData/Roaming/Typora/typora-user-images/image-20220107111904558.png)
+![image-20220107111904558](image/image-20220107111904558.png)
 
 따라서 방향에 따라 왼쪽 -> 오른쪽 기준으로 넣는다면, push로 가장 최근 것을 넣고, shift로 가장 먼저 넣은 것을 빼는 것(EnQueue),
 
 오른쪽 -> 왼쪽 기준으로 넣는다면, unshift로 가장 최근 것을 넣고, pop으로 가장 먼저 넣은 것을 빼게 된다.(DeQueue)
 
-![image-20220107111936093](../../../Users/SooHaKim/AppData/Roaming/Typora/typora-user-images/image-20220107111936093.png)
+![image-20220107111936093](image/image-20220107111936093.png)
 
 
 
 ## Array 객체의 데이터 조작하기
 
-![image-20220107112227262](../../../Users/SooHaKim/AppData/Roaming/Typora/typora-user-images/image-20220107112227262.png)
+![image-20220107112227262](image/image-20220107112227262.png)
 
 **splice**: 의미적으로 두개의 줄을 잇는 녀석이다.
 
