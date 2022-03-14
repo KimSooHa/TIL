@@ -20,11 +20,11 @@ json은 데이터를 자바스크립트의  객체문법으로 표현하는 표�
 
 ## Javascript 데이터 객체와  JSON 생성 방법
 
-![image-20220111102750913](C:\Users\SooHaKim\AppData\Roaming\Typora\typora-user-images\image-20220111102750913.png)
+![image-20220111102750913](../../../Users/SooHaKim/AppData/Roaming/Typora/typora-user-images/image-20220111102750913.png)
 
 json이 일반 객체 생성방법보다 훨씬 간단하고, 편리하다.
 
-![image-20220111103145123](C:\Users\SooHaKim\AppData\Roaming\Typora\typora-user-images\image-20220111103145123.png)
+![image-20220111103145123](image/image-20220111103145123.png)
 
 배열과 객체를 초기화할 때 new를 할 필요가 없으며, 한번에 바로 값을 대입할 수 있다.
 
@@ -34,7 +34,7 @@ json이 일반 객체 생성방법보다 훨씬 간단하고, 편리하다.
 
 ## JSON의 중첩 표현
 
-![image-20220111105511275](C:\Users\SooHaKim\AppData\Roaming\Typora\typora-user-images\image-20220111105511275.png)
+![image-20220111105511275](image/image-20220111105511275.png)
 
 객체형식의 배열을 중첩해서 담을 수도 있다.
 
@@ -42,7 +42,7 @@ json이 일반 객체 생성방법보다 훨씬 간단하고, 편리하다.
 
 ## 데이터를 구분하기 위한 표현방법
 
-![image-20220111105852447](C:\Users\SooHaKim\AppData\Roaming\Typora\typora-user-images\image-20220111105852447.png)
+![image-20220111105852447](image/image-20220111105852447.png)
 
 ※ `csv 파일`: 콤마로 구분된 파일
 
